@@ -107,3 +107,15 @@ C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework.Managed\Mai
 C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.csprojResolveAssemblyReference.cache
 C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
 C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.csprojResolveAssemblyReference.cache
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll.config
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.pdb
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\Bounty.dll
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\NHibernate.dll
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\Trx.dll
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\log4net.dll
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\Iesi.Collections.dll
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb

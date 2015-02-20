@@ -33,3 +33,8 @@ C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.ERRORLOG\bin\Debug\PA
 C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.csprojResolveAssemblyReference.cache
 C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.dll
 C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.pdb
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.dll
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.pdb
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.csprojResolveAssemblyReference.cache
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.dll
+C:\Users\INTEGRALSABIOLA\Desktop\EvoPaj\Impetus_Solution\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.pdb

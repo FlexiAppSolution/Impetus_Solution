@@ -64,15 +64,15 @@
   <ItemGroup>
     <Reference Include="Bounty, Version=1.0.2469.42722, Culture=neutral">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>\\tfs-server\Dependencies\BankOne\Bounty.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Pajuno\bin\Bounty.dll</HintPath>
     </Reference>
     <Reference Include="HibernatingRhinos.Profiler.Appender, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0774796e73ebf640, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>\\tfs-server\Dependencies\nprofiler\HibernatingRhinos.Profiler.Appender.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Pajuno\bin\HibernatingRhinos.Profiler.Appender.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>\\tfs-server\Dependencies\fluent\NHibernate.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Pajuno\bin\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -100,7 +100,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="Trx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1267434f7b61280d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Trx.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Pajuno\bin\Trx.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

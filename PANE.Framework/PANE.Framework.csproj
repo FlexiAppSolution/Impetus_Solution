@@ -49,10 +49,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FluentNHibernate">
-      <HintPath>..\Migrator\bin\FluentNHibernate.dll</HintPath>
+      <HintPath>..\..\..\Pajuno\bin\FluentNHibernate.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
-      <HintPath>..\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\NHibernate.dll</HintPath>
+      <HintPath>..\..\..\Pajuno\bin\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -78,10 +78,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="ThalesCore">
-      <HintPath>..\Migrator\bin\ThalesCore.dll</HintPath>
+      <HintPath>..\..\..\Pajuno\bin\ThalesCore.dll</HintPath>
     </Reference>
     <Reference Include="Trx">
-      <HintPath>..\Migrator\bin\Trx.dll</HintPath>
+      <HintPath>..\..\..\Pajuno\bin\Trx.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

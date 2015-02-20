@@ -34,14 +34,14 @@
   <ItemGroup>
     <Reference Include="FluentNHibernate, Version=1.1.0.685, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Bin\FluentNHibernate.dll</HintPath>
+      <HintPath>..\..\..\Pajuno\bin\FluentNHibernate.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Bin\NHibernate.dll</HintPath>
+      <HintPath>..\..\..\Pajuno\bin\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="Ninject.Core">
-      <HintPath>..\..\..\Bin\Ninject.Core.dll</HintPath>
+      <HintPath>..\..\..\Pajuno\bin\Ninject.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -63,6 +63,7 @@
     <Compile Include="Entities\License.cs" />
     <Compile Include="Entities\LicenseData.cs" />
     <Compile Include="Entities\LicenseGeneration.cs" />
+    <Compile Include="Entities\Printer.cs" />
     <Compile Include="Entities\Role.cs" />
     <Compile Include="MappingFile\CaseMap.cs" />
     <Compile Include="MappingFile\DownloadedLicenseMap.cs" />
