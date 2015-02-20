@@ -1,0 +1,30 @@
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\obj\Release\ResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\PANE.Framework.dll.config
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\PANE.Framework.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\FluentNHibernate.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\NHibernate.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\ThalesCore.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\Trx.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\Iesi.Collections.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\log4net.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Release\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\obj\Release\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\obj\Release\PANE.Framework.pdb
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\PANE.Framework.dll.config
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\PANE.Framework.pdb
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\FluentNHibernate.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\NHibernate.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\ThalesCore.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\Trx.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\Iesi.Collections.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\log4net.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Release\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\obj\Release\PANE.Framework.csprojResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\obj\Release\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\obj\Release\PANE.Framework.pdb

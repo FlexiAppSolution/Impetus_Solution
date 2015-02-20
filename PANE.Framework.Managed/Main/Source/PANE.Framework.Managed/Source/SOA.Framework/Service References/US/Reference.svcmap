@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d99b8f46-1e96-45cb-9880-a4b13d88d8eb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/fbnportal/services/utilityservice.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UtilityService21.xsd" MetadataType="Schema" ID="3dfb8c8d-126e-4867-8f5f-b016f8153f02" SourceId="1" SourceUrl="http://aurora/FBNPortal/services/UtilityService.svc?xsd=xsd0" />
+    <MetadataFile FileName="UtilityService1.disco" MetadataType="Disco" ID="16cd3f1a-fa7f-42f8-9e16-c286d803fad9" SourceId="1" SourceUrl="http://aurora/FBNPortal/services/UtilityService.svc?disco" />
+    <MetadataFile FileName="UtilityService1.wsdl" MetadataType="Wsdl" ID="38db3512-43f2-4edd-a6e9-7d449b194e26" SourceId="1" SourceUrl="http://aurora/FBNPortal/services/UtilityService.svc?wsdl" />
+    <MetadataFile FileName="UtilityService.xsd" MetadataType="Schema" ID="8bb3da18-20ff-4c0d-be8f-247e48064109" SourceId="1" SourceUrl="http://aurora/FBNPortal/services/UtilityService.svc?xsd=xsd2" />
+    <MetadataFile FileName="UtilityService1.xsd" MetadataType="Schema" ID="bcebe441-054d-4809-b6c0-4904a5943265" SourceId="1" SourceUrl="http://aurora/FBNPortal/services/UtilityService.svc?xsd=xsd5" />
+    <MetadataFile FileName="UtilityService2.xsd" MetadataType="Schema" ID="41044fd4-d21b-4c4d-b52c-88c2b1306ead" SourceId="1" SourceUrl="http://aurora/FBNPortal/services/UtilityService.svc?xsd=xsd1" />
+    <MetadataFile FileName="UtilityService11.xsd" MetadataType="Schema" ID="977f24c2-775c-4ccd-b883-7a8af0d3baf5" SourceId="1" SourceUrl="http://aurora/FBNPortal/services/UtilityService.svc?xsd=xsd3" />
+    <MetadataFile FileName="UtilityService12.xsd" MetadataType="Schema" ID="e8d3a824-d17c-494a-a60b-37a1129877f4" SourceId="1" SourceUrl="http://aurora/FBNPortal/services/UtilityService.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

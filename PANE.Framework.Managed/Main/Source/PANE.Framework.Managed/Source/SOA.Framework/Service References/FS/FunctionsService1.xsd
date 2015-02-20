@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" />
+  <xs:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" />
+  <xs:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Approval.DTO" />
+  <xs:complexType name="UserRole">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" base="q1:DataObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" minOccurs="0" name="Scope" type="q2:UserRoleScope" />
+          <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" minOccurs="0" name="UserCategory" type="q3:UserCategory" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="UserRole" nillable="true" type="tns:UserRole" />
+  <xs:complexType name="Function">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" base="q4:DataObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ApplicationID" type="xs:long" />
+          <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PANE.Framework.Approval.DTO" minOccurs="0" name="ApprovalConfigurationUpdate" nillable="true" type="q5:ApprovalConfiguration" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HasSubRoles" type="xs:boolean" />
+          <xs:element minOccurs="0" name="InstitutionID" nillable="true" type="xs:long" />
+          <xs:element minOccurs="0" name="IsApprovable" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDefault" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ParentFunction" nillable="true" type="tns:Function" />
+          <xs:element minOccurs="0" name="RoleName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SubUserRoleUpdate" nillable="true" type="tns:UserRole" />
+          <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/PANE.Framework.Approval.DTO" minOccurs="0" name="TheApprovalConfigurations" nillable="true" type="q6:ArrayOfApprovalConfiguration" />
+          <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" minOccurs="0" name="UserCategory" type="q7:UserCategory" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Function" nillable="true" type="tns:Function" />
+</xs:schema>

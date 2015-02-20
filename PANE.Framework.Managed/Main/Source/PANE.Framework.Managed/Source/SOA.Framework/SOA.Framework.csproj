@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.3077</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2499BEC2-A9BA-468B-AA34-D31F4CD8B98E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>SOA.Framework</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <RootNamespace>SOA.Framework</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\tfs-server\Dependencies\fluent\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Name>System.Configuration</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <Name>System.Core</Name>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization">
+      <Name>System.Runtime.Serialization</Name>
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <Name>System.ServiceModel</Name>
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Service References\APPS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\FS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\IS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\RA\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SMS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\US\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SOA\Framework\ApprovalConfigHelper\AppFunctions.cs" />
+    <Compile Include="SOA\Framework\ApprovalConfigHelper\ApprovalConfig.cs" />
+    <Compile Include="SOA\Framework\ApprovalConfigHelper\ApprovalConfigService.cs" />
+    <Compile Include="SOA\Framework\ApprovalConfigHelper\DAO\ApprovalConfigDAO.cs" />
+    <Compile Include="SOA\Framework\ApprovalHelper\ApprovalService.cs" />
+    <Compile Include="SOA\Framework\FunctionHelper\DAO\FunctionItemDAO.cs" />
+    <Compile Include="SOA\Framework\FunctionHelper\DAO\UserRoleFunctionItemDAO.cs" />
+    <Compile Include="SOA\Framework\FunctionHelper\DAO\UserRoleFunctionSubRoleItemDAO.cs" />
+    <Compile Include="SOA\Framework\FunctionHelper\FunctionItem.cs" />
+    <Compile Include="SOA\Framework\FunctionHelper\FunctionService.cs" />
+    <Compile Include="SOA\Framework\FunctionHelper\ManagedFunctionRoleProvider.cs" />
+    <Compile Include="SOA\Framework\FunctionHelper\NameValue.cs" />
+    <Compile Include="SOA\Framework\FunctionHelper\UserRoleFunctionItem.cs" />
+    <Compile Include="SOA\Framework\FunctionHelper\UserRoleFunctionSubRoleItem.cs" />
+    <Compile Include="SOA\Framework\FunctionHelper\Utility\Utility.cs" />
+    <Compile Include="SOA\Framework\MailHelper\MessagingUtil.cs" />
+    <Compile Include="SOA\Framework\MembershipHelper\ManagedMembershipProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SOA\Framework\MembershipHelper\MembershipBranchItem.cs" />
+    <Compile Include="SOA\Framework\MembershipHelper\MembershipService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SOA\Framework\MembershipHelper\MembershipUserItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SOA\Framework\MembershipHelper\RoleService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SOA\Framework\SessionHelper\SessionService.cs" />
+    <Compile Include="SOA\Framework\SiteMapHelper\ManagedSiteMapProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SOA\Framework\SiteMapHelper\SiteMapService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SOA\Framework\Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\APPS\" />
+    <WCFMetadataStorage Include="Service References\AS\" />
+    <WCFMetadataStorage Include="Service References\FS\" />
+    <WCFMetadataStorage Include="Service References\IS\" />
+    <WCFMetadataStorage Include="Service References\MS\" />
+    <WCFMetadataStorage Include="Service References\RA\" />
+    <WCFMetadataStorage Include="Service References\SMS\" />
+    <WCFMetadataStorage Include="Service References\SS\" />
+    <WCFMetadataStorage Include="Service References\US\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="pane.managedservices.pfx" />
+    <None Include="Properties\DataSources\SOA.Framework.SiteMapHelper.SiteMapItem.datasource" />
+    <None Include="Service References\APPS\ApprovalService.wsdl" />
+    <None Include="Service References\APPS\ApprovalService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\APPS\ApprovalService1.wsdl" />
+    <None Include="Service References\APPS\ApprovalService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\APPS\ApprovalService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\APPS\ApprovalService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\APPS\SOA.Framework.APPS.ApprovalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\APPS\SOA.Framework.APPS.TrailItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AS\ApprovalConfigService.wsdl" />
+    <None Include="Service References\AS\ApprovalConfigService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AS\ApprovalConfigService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AS\ApprovalConfigService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AS\ApprovalConfigService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AS\ApprovalConfigService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AS\ApprovalConfigService5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AS\ApprovalConfigService6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AS\ApprovalConfigService7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AS\SOA.Framework.AS.Approval.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AS\SOA.Framework.AS.ApprovalConfiguration.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AS\SOA.Framework.AS.TrailItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FS\FunctionService.wsdl" />
+    <None Include="Service References\FS\FunctionsService.wsdl" />
+    <None Include="Service References\FS\FunctionsService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FS\FunctionsService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FS\FunctionsService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FS\FunctionsService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FS\FunctionsService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FS\FunctionsService5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FS\FunctionsService6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FS\FunctionsService7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FS\SOA.Framework.FS.FunctionItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\IS\ImpersonationService.wsdl" />
+    <None Include="Service References\IS\ImpersonationService.xsd" />
+    <None Include="Service References\IS\ImpersonationService1.xsd" />
+    <None Include="Service References\MS\MembershipService.wsdl" />
+    <None Include="Service References\MS\MembershipService.xsd" />
+    <None Include="Service References\MS\MembershipService1.wsdl" />
+    <None Include="Service References\MS\MembershipService1.xsd" />
+    <None Include="Service References\MS\MembershipService2.xsd" />
+    <None Include="Service References\MS\MembershipService3.xsd" />
+    <None Include="Service References\MS\MembershipService4.xsd" />
+    <None Include="Service References\MS\SOA.Framework.MS.MembershipUserItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\RA\RecentActivityService1.wsdl" />
+    <None Include="Service References\RA\RecentActivityService3.xsd" />
+    <None Include="Service References\RA\RecentActivityService31.xsd" />
+    <None Include="Service References\RA\RecentActivityService32.xsd" />
+    <None Include="Service References\RA\SOA.Framework.RA.RecentActivity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AS\configuration91.svcinfo" />
+    <None Include="Service References\AS\configuration.svcinfo" />
+    <None Include="Service References\AS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\IS\ImpersonationService.disco" />
+    <None Include="Service References\IS\configuration91.svcinfo" />
+    <None Include="Service References\IS\configuration.svcinfo" />
+    <None Include="Service References\IS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\APPS\configuration91.svcinfo" />
+    <None Include="Service References\APPS\configuration.svcinfo" />
+    <None Include="Service References\APPS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\RA\configuration91.svcinfo" />
+    <None Include="Service References\RA\configuration.svcinfo" />
+    <None Include="Service References\RA\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\RA\RecentActivityService1.disco" />
+    <None Include="Service References\SMS\SiteMapService.disco" />
+    <None Include="Service References\SMS\configuration91.svcinfo" />
+    <None Include="Service References\SMS\configuration.svcinfo" />
+    <None Include="Service References\SMS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\MS\MembershipService.disco" />
+    <None Include="Service References\MS\configuration91.svcinfo" />
+    <None Include="Service References\MS\configuration.svcinfo" />
+    <None Include="Service References\MS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\SMS\SiteMapService.wsdl" />
+    <None Include="Service References\SMS\SiteMapService.xsd" />
+    <None Include="Service References\SMS\SiteMapService1.wsdl" />
+    <None Include="Service References\SMS\SiteMapService1.xsd" />
+    <None Include="Service References\SMS\SiteMapService2.xsd" />
+    <None Include="Service References\SMS\SiteMapService3.xsd" />
+    <None Include="Service References\SS\SessionService1.disco" />
+    <None Include="Service References\SS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\SS\configuration.svcinfo" />
+    <None Include="Service References\SS\configuration91.svcinfo" />
+    <None Include="Service References\SS\SessionService2.wsdl" />
+    <None Include="Service References\SS\SessionService2.xsd" />
+    <None Include="Service References\SS\SessionService3.wsdl" />
+    <None Include="Service References\SS\SessionService3.xsd" />
+    <None Include="Service References\US\SOA.Framework.US.BaseUser.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\US\UtilityService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\US\UtilityService1.wsdl" />
+    <None Include="Service References\US\UtilityService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\US\UtilityService11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\US\UtilityService12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\US\UtilityService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\US\UtilityService21.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PANE.Framework.Managed\PANE.Framework.Managed.csproj">
+      <Project>{18BB0A68-8B77-432E-9256-3B439748F5B9}</Project>
+      <Name>PANE.Framework.Managed</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SOA.Framework.Core\SOA.Framework.Core.csproj">
+      <Project>{657E8190-E0A4-4158-84AC-A25B05C13B56}</Project>
+      <Name>SOA.Framework.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\US\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\US\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\US\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\US\UtilityService1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AS\ApprovalConfigService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\APPS\ApprovalService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FS\FunctionsService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FS\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FS\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

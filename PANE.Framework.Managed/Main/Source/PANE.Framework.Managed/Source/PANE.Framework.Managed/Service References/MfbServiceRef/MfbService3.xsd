@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Utility" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Utility" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="AuthenticationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="System" />
+      <xs:enumeration value="ActiveDirectory" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AuthenticationType" nillable="true" type="tns:AuthenticationType" />
+  <xs:simpleType name="InstitutionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="MFB" />
+      <xs:enumeration value="CorrespondentBank" />
+      <xs:enumeration value="Mobile" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="InstitutionType" nillable="true" type="tns:InstitutionType" />
+  <xs:simpleType name="MFBStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Migration" />
+      <xs:enumeration value="InActive" />
+      <xs:enumeration value="Active" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="MFBStatus" nillable="true" type="tns:MFBStatus" />
+  <xs:simpleType name="ValidationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="No" />
+      <xs:enumeration value="Yes" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ValidationType" nillable="true" type="tns:ValidationType" />
+</xs:schema>

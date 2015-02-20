@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Approval.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Approval.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://evolution.appzone.local/Issuance/services/FunctionsService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" />
+  <xs:import schemaLocation="http://evolution.appzone.local/Issuance/services/FunctionsService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" />
+  <xs:complexType name="ApprovalConfiguration">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" base="q1:DataObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ApplicationName" nillable="true" type="xs:string" />
+          <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" minOccurs="0" name="ApprovingRole" nillable="true" type="q2:UserRole" />
+          <xs:element minOccurs="0" name="ApprovingRoleID" type="xs:long" />
+          <xs:element minOccurs="0" name="Data" type="xs:long" />
+          <xs:element minOccurs="0" name="IsApprovable" type="xs:boolean" />
+          <xs:element minOccurs="0" name="MakeRoleName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MakerRole" type="xs:long" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ApprovalConfiguration" nillable="true" type="tns:ApprovalConfiguration" />
+  <xs:complexType name="ArrayOfApprovalConfiguration">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ApprovalConfiguration" nillable="true" type="tns:ApprovalConfiguration" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApprovalConfiguration" nillable="true" type="tns:ArrayOfApprovalConfiguration" />
+</xs:schema>

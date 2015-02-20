@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://evolution.appzone.local/Issuance/services/FunctionsService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" />
+  <xs:import schemaLocation="http://evolution.appzone.local/Issuance/services/FunctionsService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" />
+  <xs:import schemaLocation="http://evolution.appzone.local/Issuance/services/FunctionsService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" />
+  <xs:element name="GetFunctionsForApprovalConfiguration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" minOccurs="0" name="userCategory" type="q1:UserCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFunctionsForApprovalConfigurationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" minOccurs="0" name="GetFunctionsForApprovalConfigurationResult" nillable="true" type="q2:ArrayOfFunctionItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveAll">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" minOccurs="0" name="userCategory" type="q3:UserCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" minOccurs="0" name="RetrieveAllResult" nillable="true" type="q4:ArrayOfFunctionItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveThUserRoleFunctionItems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" minOccurs="0" name="userRoleFunctionItems" nillable="true" type="q5:ArrayOfUserRoleFunctionItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveThUserRoleFunctionItemsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveThUserRoleFunctionItemsResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateThUserRoleFunctionItems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" minOccurs="0" name="userRoleFunctionItems" nillable="true" type="q6:ArrayOfUserRoleFunctionItem" />
+        <xs:element minOccurs="0" name="id" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateThUserRoleFunctionItemsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateThUserRoleFunctionItemsResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConvertFunction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" minOccurs="0" name="function" nillable="true" type="q7:Function" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConvertFunctionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" minOccurs="0" name="ConvertFunctionResult" nillable="true" type="q8:FunctionItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFunctionByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFunctionByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" minOccurs="0" name="GetFunctionByIDResult" nillable="true" type="q9:FunctionItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFunctionByRoleName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="rolename" nillable="true" type="xs:string" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" minOccurs="0" name="userCategory" type="q10:UserCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFunctionByRoleNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" minOccurs="0" name="GetFunctionByRoleNameResult" nillable="true" type="q11:FunctionItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFunctionsForUserRole">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="id" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFunctionsForUserRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" minOccurs="0" name="GetFunctionsForUserRoleResult" nillable="true" type="q12:ArrayOfFunctionItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDependencyFunctionsForUserRole">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="id" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDependencyFunctionsForUserRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" minOccurs="0" name="GetDependencyFunctionsForUserRoleResult" nillable="true" type="q13:ArrayOfFunctionItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveFunctionItemsForUserRoleID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userRoleID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveFunctionItemsForUserRoleIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" minOccurs="0" name="RetrieveFunctionItemsForUserRoleIDResult" nillable="true" type="q14:ArrayOfFunctionItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

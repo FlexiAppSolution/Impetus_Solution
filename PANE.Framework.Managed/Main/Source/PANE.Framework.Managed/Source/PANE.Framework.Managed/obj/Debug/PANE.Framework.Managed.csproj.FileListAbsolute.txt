@@ -1,0 +1,109 @@
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\obj\Debug\ResolveAssemblyReference.cache
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\PANE.Framework.Managed.dll.config
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\PANE.Framework.Managed.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\PANE.Framework.Managed.pdb
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\Bounty.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\Castle.Core.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\Castle.DynamicProxy.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\Castle.DynamicProxy2.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\HibernatingRhinos.NHibernate.Profiler.Appender.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\NHibernate.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\Trx.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\log4net.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\Iesi.Collections.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\bin\Debug\Antlr3.Runtime.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\obj\Debug\PANE.Framework.Managed.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\PANE.Framework\obj\Debug\PANE.Framework.Managed.pdb
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll.config
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.pdb
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\log4net.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Iesi.Collections.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Antlr3.Runtime.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\NHibernate.xml
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Iesi.Collections.xml
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\obj\Debug\ResolveAssemblyReference.cache
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Bounty.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\NHibernate.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Trx.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\obj\Debug\ResolveAssemblyReference.cache
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll.config
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.pdb
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Bounty.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\NHibernate.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Trx.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\log4net.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Iesi.Collections.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Antlr3.Runtime.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\NHibernate.xml
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Iesi.Collections.xml
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\obj\Debug\ResolveAssemblyReference.cache
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll.config
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.pdb
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\log4net.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Iesi.Collections.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Antlr3.Runtime.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\NHibernate.xml
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\PANE.Framework.Managed\bin\Debug\Iesi.Collections.xml
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\ResolveAssemblyReference.cache
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll.config
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.pdb
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\Bounty.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\NHibernate.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\Trx.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\log4net.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\Iesi.Collections.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\Antlr3.Runtime.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\NHibernate.xml
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\Iesi.Collections.xml
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll.config
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.csprojResolveAssemblyReference.cache
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll.config
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.csprojResolveAssemblyReference.cache
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll.config
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.pdb
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.csprojResolveAssemblyReference.cache
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll.config
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll.config
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.csprojResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll.config
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\bin\Debug\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.csprojResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\obj\Debug\PANE.Framework.Managed.pdb

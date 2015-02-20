@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" schema="dbo">
+  <class name="PANE.Framework.AuditTrail.DTO.AuditTrail, PANE.Framework" table="[AuditTrail]">
+    <id name="ID" type="Int64" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Action" column="Action" type="PANE.Framework.AuditTrail.Enums.AuditAction, PANE.Framework" />
+    <property name="ActionDate" column="ActionDate" type="System.DateTime" />
+    <property name="DataAfter" column="DataAfter" type="Byte[]" />
+    <property name="DataBefore" column="DataBefore" type="Byte[]" />
+    <property name="DataType" column="DataType" type="String" />
+    <property name="ObjectID" column="ObjectID" type="Int64" />
+    <property name="Data" column="Data" type="Byte[]" />
+    <property name="ClientIPAddress" column="ClientIPAddress" type="String" />
+    <property name="ClientName" column="ClientName" type="String" />
+    <property name="SubjectIdentifier" column="SubjectIdentifier" type="String" />
+    <property name="UserCategory" column="UserCategory" type="PANE.Framework.Functions.DTO.UserCategory, PANE.Framework"/>
+    <property name="InstitutionID" column="InstitutionID" type="Int64"/>
+    <property name="UserID" column="UserID" type="Int64" />
+    <!--<many-to-one name="User" column ="UserID" update="false" insert="false" class="PANE.Framework.Functions.DTO.IUser, PANE.Framework"/>-->
+  </class>
+</hibernate-mapping>

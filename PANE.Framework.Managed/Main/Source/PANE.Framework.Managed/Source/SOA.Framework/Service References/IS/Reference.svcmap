@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5fa9ea75-352a-4faf-b1f5-95f408a64c18" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/managedservices/services/ImpersonationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ImpersonationService.wsdl" MetadataType="Wsdl" ID="2954c237-6f7e-4f70-aae0-71391c6cb767" SourceId="1" SourceUrl="http://tarantula.paneinternational.local/ManagedServices/services/ImpersonationService.svc?wsdl" />
+    <MetadataFile FileName="ImpersonationService.xsd" MetadataType="Schema" ID="92846ff8-5617-4905-8f4d-8691676f97a8" SourceId="1" SourceUrl="http://tarantula.paneinternational.local/ManagedServices/services/ImpersonationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ImpersonationService1.xsd" MetadataType="Schema" ID="81a91d4c-cac0-4d1e-893c-d86a395a7af5" SourceId="1" SourceUrl="http://tarantula.paneinternational.local/ManagedServices/services/ImpersonationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ImpersonationService.disco" MetadataType="Disco" ID="bd1c54b6-64d0-4b8e-ae15-f023fdade707" SourceId="1" SourceUrl="http://tarantula.paneinternational.local/ManagedServices/services/ImpersonationService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

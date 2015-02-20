@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="58e54561-4589-4cc0-8251-2bb28feead83" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/ManagedServices/Services/MembershipService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MembershipService.xsd" MetadataType="Schema" ID="f51c9600-5dfe-4d07-b521-11520ec68762" SourceId="1" SourceUrl="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MembershipService.disco" MetadataType="Disco" ID="350cedb2-26ce-433f-bcbd-40f08f43da5a" SourceId="1" SourceUrl="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?disco" />
+    <MetadataFile FileName="MembershipService1.xsd" MetadataType="Schema" ID="f1f47eb5-d31a-4557-a260-7fc9827f77b0" SourceId="1" SourceUrl="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MembershipService2.xsd" MetadataType="Schema" ID="3c9c3524-3237-4da4-b389-030857d777e5" SourceId="1" SourceUrl="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?xsd=xsd3" />
+    <MetadataFile FileName="MembershipService.wsdl" MetadataType="Wsdl" ID="06fe301c-fdf3-47c7-b201-bdfb614a9a88" SourceId="1" SourceUrl="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?wsdl" />
+    <MetadataFile FileName="MembershipService3.xsd" MetadataType="Schema" ID="282c4623-f61c-459a-845a-07ca75f751a3" SourceId="1" SourceUrl="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MembershipService4.xsd" MetadataType="Schema" ID="68b3d88d-e38f-4156-b1bb-0bba79ff5212" SourceId="1" SourceUrl="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?xsd=xsd4" />
+    <MetadataFile FileName="MembershipService1.wsdl" MetadataType="Wsdl" ID="512b2f6e-806e-46e3-bc4e-ab06f361f697" SourceId="1" SourceUrl="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

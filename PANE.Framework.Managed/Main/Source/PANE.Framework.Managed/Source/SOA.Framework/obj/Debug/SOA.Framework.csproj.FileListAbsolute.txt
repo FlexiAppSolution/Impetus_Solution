@@ -1,0 +1,108 @@
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\SOA.Framework.dll.config
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\SOA.Framework.dll
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\SOA.Framework.pdb
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\PANE.Framework.dll
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\SOA.Framework.Core.dll
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\Castle.DynamicProxy2.dll
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\log4net.dll
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\Iesi.Collections.dll
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\Castle.Core.dll
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\Trx.dll
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\PANE.Framework.pdb
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\SOA.Framework.Core.pdb
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\obj\Debug\ResolveAssemblyReference.cache
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\obj\Debug\SOA.Framework.dll
+c:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\obj\Debug\SOA.Framework.pdb
+C:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+C:\PANE\TeamFoundationServer\Source\Common Projects\SOA.Framework\bin\Debug\NHibernate.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\obj\Debug\ResolveAssemblyReference.cache
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\SOA.Framework.dll.config
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\SOA.Framework.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\SOA.Framework.pdb
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\NHibernate.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\PANE.Framework.Managed.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\SOA.Framework.Core.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\log4net.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\Iesi.Collections.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\Antlr3.Runtime.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\Trx.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\PANE.Framework.Managed.pdb
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\bin\Debug\SOA.Framework.Core.pdb
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\obj\Debug\SOA.Framework.dll
+C:\PANE\TFS\ViaCard.SkyeBank\BankOneViaCardIssuance\Common Projects\SOA.Framework\obj\Debug\SOA.Framework.pdb
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.dll.config
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.pdb
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\PANE.Framework.Managed.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.Core.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Trx.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Iesi.Collections.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Antlr3.Runtime.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\log4net.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\PANE.Framework.Managed.pdb
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.Core.pdb
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\NHibernate.xml
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Iesi.Collections.xml
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\log4net.xml
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\obj\Debug\ResolveAssemblyReference.cache
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\obj\Debug\SOA.Framework.dll
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\obj\Debug\SOA.Framework.pdb
+C:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\NHibernate.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\obj\Debug\ResolveAssemblyReference.cache
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\obj\Debug\SOA.Framework.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\obj\Debug\SOA.Framework.pdb
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.dll.config
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.pdb
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\NHibernate.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\PANE.Framework.Managed.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.Core.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Trx.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Iesi.Collections.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Antlr3.Runtime.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\log4net.dll
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\PANE.Framework.Managed.pdb
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.Core.pdb
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\NHibernate.xml
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Iesi.Collections.xml
+G:\AppZone\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\log4net.xml
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\obj\Debug\ResolveAssemblyReference.cache
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\obj\Debug\SOA.Framework.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\obj\Debug\SOA.Framework.pdb
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.dll.config
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.pdb
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\PANE.Framework.Managed.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.Core.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Trx.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Iesi.Collections.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Antlr3.Runtime.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\log4net.dll
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\PANE.Framework.Managed.pdb
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\SOA.Framework.Core.pdb
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\NHibernate.xml
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\Iesi.Collections.xml
+C:\AppZone\Migrate Code To New Lappy\BankOneAgent\Main\Source\BankOneAgent\Source\SOA.Framework\bin\Debug\log4net.xml
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\obj\Debug\ResolveAssemblyReference.cache
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\obj\Debug\SOA.Framework.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\obj\Debug\SOA.Framework.pdb
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\SOA.Framework.dll.config
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\SOA.Framework.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\SOA.Framework.pdb
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\NHibernate.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\PANE.Framework.Managed.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\SOA.Framework.Core.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\Trx.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\Iesi.Collections.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\Antlr3.Runtime.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\log4net.dll
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\PANE.Framework.Managed.pdb
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\SOA.Framework.Core.pdb
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\NHibernate.xml
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\Iesi.Collections.xml
+C:\AppZone\TFS\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\SOA.Framework\bin\Debug\log4net.xml

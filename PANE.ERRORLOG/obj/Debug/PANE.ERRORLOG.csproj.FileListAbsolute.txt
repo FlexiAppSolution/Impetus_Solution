@@ -1,0 +1,35 @@
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.ERRORLOG\obj\Debug\ResolveAssemblyReference.cache
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.dll
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.ERRORLOG\obj\Debug\ResolveAssemblyReference.cache
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.dll
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.csprojResolveAssemblyReference.cache
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.dll
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.dll
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.csprojResolveAssemblyReference.cache
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.dll
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.pdb
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.csprojResolveAssemblyReference.cache
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.dll
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.pdb
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.pdb
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.csprojResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.ERRORLOG\bin\Debug\PANE.ERRORLOG.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.csprojResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.ERRORLOG\obj\Debug\PANE.ERRORLOG.pdb

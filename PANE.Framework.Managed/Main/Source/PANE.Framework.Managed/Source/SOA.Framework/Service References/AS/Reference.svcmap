@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="54135582-ca96-4308-8514-8468e67f2869" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/FBNPortal/Services/ApprovalConfigService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ApprovalConfigService.xsd" MetadataType="Schema" ID="ed13bc8a-f835-4b4b-b509-8a7f96027847" SourceId="1" SourceUrl="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ApprovalConfigService1.xsd" MetadataType="Schema" ID="c19eb4f4-1424-4c51-a7aa-0700985084f4" SourceId="1" SourceUrl="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?xsd=xsd6" />
+    <MetadataFile FileName="ApprovalConfigService.disco" MetadataType="Disco" ID="3ed8d553-ecec-493f-bf8f-5751c10c6d53" SourceId="1" SourceUrl="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?disco" />
+    <MetadataFile FileName="ApprovalConfigService.wsdl" MetadataType="Wsdl" ID="01795663-24dc-4be9-8cf4-c5793d4d863f" SourceId="1" SourceUrl="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?wsdl" />
+    <MetadataFile FileName="ApprovalConfigService2.xsd" MetadataType="Schema" ID="f4c7caaa-07c6-4e04-a0c7-7f9119ee6e50" SourceId="1" SourceUrl="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?xsd=xsd7" />
+    <MetadataFile FileName="ApprovalConfigService3.xsd" MetadataType="Schema" ID="64d32e8d-a41d-460e-a424-17b4c9c2b871" SourceId="1" SourceUrl="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ApprovalConfigService4.xsd" MetadataType="Schema" ID="0fbf63e1-4240-4e1c-a6df-e0285c8c60cc" SourceId="1" SourceUrl="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ApprovalConfigService5.xsd" MetadataType="Schema" ID="edd66063-1d02-48df-9aeb-4be8d318dc84" SourceId="1" SourceUrl="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?xsd=xsd4" />
+    <MetadataFile FileName="ApprovalConfigService6.xsd" MetadataType="Schema" ID="7cbfb092-a993-481f-9c9e-6c1c6531f78b" SourceId="1" SourceUrl="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?xsd=xsd5" />
+    <MetadataFile FileName="ApprovalConfigService7.xsd" MetadataType="Schema" ID="b2615832-a4d5-4d5a-8481-311cbd5adbab" SourceId="1" SourceUrl="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

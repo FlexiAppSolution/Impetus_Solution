@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://crisp-pc/AppZonePortal2/Services/MfbService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" />
+  <xs:import schemaLocation="http://crisp-pc/AppZonePortal2/Services/MfbService.svc?xsd=xsd5" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="GetBySwitchCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="switchCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBySwitchCodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="GetBySwitchCodeResult" nillable="true" type="q1:Mfb" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveAllStates">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveAllStatesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="RetrieveAllStatesResult" nillable="true" type="q2:ArrayOfState" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveAllDenominations">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveAllDenominationsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="RetrieveAllDenominationsResult" nillable="true" type="q3:ArrayOfCurrencyDenomination" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetImageUrl">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetImageUrlResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetImageUrlResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLGAByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="LGAID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLGAByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="GetLGAByIDResult" nillable="true" type="q4:LGA" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLGAsByStateID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stateID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLGAsByStateIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="GetLGAsByStateIDResult" nillable="true" type="q5:ArrayOfLGA" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveAll">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="RetrieveAllResult" nillable="true" type="q6:ArrayOfMfb" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="GetByIDResult" nillable="true" type="q7:Mfb" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetByInstitutionCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InstitutionCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetByInstitutionCodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="GetByInstitutionCodeResult" nillable="true" type="q8:Mfb" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetByCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetByCodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="GetByCodeResult" nillable="true" type="q9:Mfb" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetByIDs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="mfbIDs" nillable="true" type="q10:ArrayOflong" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetByIDsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetByIDsResult" nillable="true" type="q11:ArrayOfKeyValueOflongMfbjr6tgEM8" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPortByMacAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="macAddress" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPortByMacAddressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetPortByMacAddressResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllMfbsExcluding">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="mfbIDs" nillable="true" type="q12:ArrayOflong" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllMfbsExcludingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="AllMfbsExcludingResult" nillable="true" type="q13:ArrayOfMfb" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMfbAppUsingMfbCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="appID" type="xs:long" />
+        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMfbAppUsingMfbCodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="GetMfbAppUsingMfbCodeResult" nillable="true" type="q14:MfbApps" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChangeFinancialDate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="newFinancialDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChangeFinancialDateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ChangeFinancialDateResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMFBLogoByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMFBLogoByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="GetMFBLogoByIDResult" nillable="true" type="q15:MfbLogo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetByInstitutionID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="institutionID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetByInstitutionIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="GetByInstitutionIDResult" nillable="true" type="q16:ArrayOfMfbApps" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetApplicationIDs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetApplicationIDsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetApplicationIDsResult" nillable="true" type="q17:ArrayOflong" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

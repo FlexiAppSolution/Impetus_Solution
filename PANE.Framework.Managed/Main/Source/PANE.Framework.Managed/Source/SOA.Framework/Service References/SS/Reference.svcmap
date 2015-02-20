@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="887d53ca-fdeb-4e8d-b213-f34d4376e678" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/managedservices/Services/SessionService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SessionService2.wsdl" MetadataType="Wsdl" ID="c00506ea-6040-4461-960d-bb1525a020bd" SourceId="1" SourceUrl="http://outlander/ManagedServices/Services/SessionService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="SessionService2.xsd" MetadataType="Schema" ID="bbfefb18-422e-44cd-86df-6203364f620f" SourceId="1" SourceUrl="http://outlander/ManagedServices/Services/SessionService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SessionService1.disco" MetadataType="Disco" ID="eaeb08be-0923-462b-b406-7841197ab9fb" SourceId="1" SourceUrl="http://outlander/ManagedServices/Services/SessionService.svc?disco" />
+    <MetadataFile FileName="SessionService3.xsd" MetadataType="Schema" ID="314e97e7-9e81-4d23-8ab2-ff2bf468043c" SourceId="1" SourceUrl="http://outlander/ManagedServices/Services/SessionService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SessionService3.wsdl" MetadataType="Wsdl" ID="b8b77a69-3484-4bdf-98da-24f58b5bb5c8" SourceId="1" SourceUrl="http://outlander/ManagedServices/Services/SessionService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

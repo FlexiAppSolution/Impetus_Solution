@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{08255A6A-AC0B-451E-84CC-23E05A80BF29}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EvoPaj.Data</RootNamespace>
+    <AssemblyName>EvoPaj.Data</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Bin\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CaseDAO.cs" />
+    <Compile Include="CoreDAO.cs" />
+    <Compile Include="EmailDAO.cs" />
+    <Compile Include="IncidentNumberDAO.cs" />
+    <Compile Include="InstitutionDAO.cs" />
+    <Compile Include="IssueDAO.cs" />
+    <Compile Include="LicenseDAO.cs" />
+    <Compile Include="LicenseGenerationDAO.cs" />
+    <Compile Include="MSSQLDataAccess.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleDAO.cs" />
+    <Compile Include="UserDAO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EvoPaj.Base\EvoPaj.Base.csproj">
+      <Project>{BFF8124A-CABF-4866-BAF3-F43D15FF5C4F}</Project>
+      <Name>EvoPaj.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PANE.ERRORLOG\PANE.ERRORLOG.csproj">
+      <Project>{97325F6A-C25C-4844-B48C-589F7E103CFA}</Project>
+      <Name>PANE.ERRORLOG</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PANE.Framework.Managed\Main\Source\PANE.Framework.Managed\Source\PANE.Framework.Managed\PANE.Framework.Managed.csproj">
+      <Project>{AB2B0D25-E2E8-4A7C-93BF-BFDD54D582D6}</Project>
+      <Name>PANE.Framework.Managed</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PANE.Framework\PANE.Framework.csproj">
+      <Project>{18BB0A68-8B77-432E-9256-3B439748F5B9}</Project>
+      <Name>PANE.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

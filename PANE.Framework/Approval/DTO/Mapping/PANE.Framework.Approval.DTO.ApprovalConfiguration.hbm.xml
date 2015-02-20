@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" schema="dbo">
+  <class name="PANE.Framework.Approval.DTO.ApprovalConfiguration, PANE.Framework" table="[ApprovalConfiguration]">
+    <id name="ID" type="Int64" column="ID">
+      <generator class="native" />
+    </id>
+    <property name="IsApprovable" column="IsApproved" type="Boolean"/>
+    <property name="InstitutionID" column="InstitutionID" type="Int64"/>
+    <many-to-one name="Data" column="Data" class="PANE.Framework.Functions.DTO.Function,PANE.Framework"/>
+    <many-to-one name="ApprovingRole" column="ApprovingRole" class="PANE.Framework.Functions.DTO.UserRole, PANE.Framework"/>
+    <many-to-one name="MakerRole" column="MakerRole" class="PANE.Framework.Functions.DTO.Function,PANE.Framework"/>
+    <many-to-one name="SubUserRole" column="SubUserRoleID" class="PANE.Framework.Functions.DTO.UserRole, PANE.Framework"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="/Imports">
+      <xsd:import schemaLocation="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?xsd=xsd0" />
+      <xsd:import schemaLocation="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/SOA.Framework.MembershipHelper" />
+      <xsd:import schemaLocation="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" />
+      <xsd:import schemaLocation="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MembershipService_GetUser_InputMessage">
+    <wsdl:part name="parameters" element="GetUser" />
+  </wsdl:message>
+  <wsdl:message name="MembershipService_GetUser_OutputMessage">
+    <wsdl:part name="parameters" element="GetUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="MembershipService_GetUserByKey_InputMessage">
+    <wsdl:part name="parameters" element="GetUserByKey" />
+  </wsdl:message>
+  <wsdl:message name="MembershipService_GetUserByKey_OutputMessage">
+    <wsdl:part name="parameters" element="GetUserByKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="MembershipService_ValidateUser_InputMessage">
+    <wsdl:part name="parameters" element="ValidateUser" />
+  </wsdl:message>
+  <wsdl:message name="MembershipService_ValidateUser_OutputMessage">
+    <wsdl:part name="parameters" element="ValidateUserResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MembershipService">
+    <wsdl:operation name="GetUser">
+      <wsdl:input wsaw:Action="urn:MembershipService/GetUser" message="MembershipService_GetUser_InputMessage" />
+      <wsdl:output wsaw:Action="urn:MembershipService/GetUserResponse" message="MembershipService_GetUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserByKey">
+      <wsdl:input wsaw:Action="urn:MembershipService/GetUserByKey" message="MembershipService_GetUserByKey_InputMessage" />
+      <wsdl:output wsaw:Action="urn:MembershipService/GetUserByKeyResponse" message="MembershipService_GetUserByKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateUser">
+      <wsdl:input wsaw:Action="urn:MembershipService/ValidateUser" message="MembershipService_ValidateUser_InputMessage" />
+      <wsdl:output wsaw:Action="urn:MembershipService/ValidateUserResponse" message="MembershipService_ValidateUser_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

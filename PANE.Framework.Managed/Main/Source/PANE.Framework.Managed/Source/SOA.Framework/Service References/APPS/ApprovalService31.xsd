@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://evolution.appzone.local/BankOne/services/ApprovalService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Utility" />
+  <xs:element name="GetApprovalObject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dataBefore" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="dataAfter" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetApprovalObjectResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PANE.Framework.Utility" minOccurs="0" name="GetApprovalObjectResult" nillable="true" type="q1:ArrayOfTrailItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveApprovedObject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dataToApprove" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="assemblyName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveApprovedObjectResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PANE.Framework.Utility" minOccurs="0" name="SaveApprovedObjectResult" nillable="true" type="q2:ApprovalResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateApprovedObject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dataToApprove" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="assemblyName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateApprovedObjectResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PANE.Framework.Utility" minOccurs="0" name="UpdateApprovedObjectResult" nillable="true" type="q3:ApprovalResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteApprovedObject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dataToApprove" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="assemblyName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteApprovedObjectResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PANE.Framework.Utility" minOccurs="0" name="DeleteApprovedObjectResult" nillable="true" type="q4:ApprovalResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

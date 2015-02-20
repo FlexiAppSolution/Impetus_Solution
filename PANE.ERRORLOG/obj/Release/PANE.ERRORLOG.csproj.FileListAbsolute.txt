@@ -1,0 +1,6 @@
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.ERRORLOG\bin\Release\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.ERRORLOG\obj\Release\ResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.ERRORLOG\obj\Release\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.ERRORLOG\bin\Release\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.ERRORLOG\obj\Release\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.ERRORLOG\obj\Release\PANE.ERRORLOG.csprojResolveAssemblyReference.cache

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4933f249-2c36-4edf-8efa-2e47801f9b35" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/posonboarding/services/approvalservice.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ApprovalService.xsd" MetadataType="Schema" ID="d65472be-a0ea-4847-a18d-8f27db1cb1f8" SourceId="1" SourceUrl="http://aurora/POSOnboarding/services/ApprovalService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ApprovalService1.xsd" MetadataType="Schema" ID="bf06c91b-a1f1-4aac-bf67-57762944af4d" SourceId="1" SourceUrl="http://aurora/POSOnboarding/services/ApprovalService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ApprovalService2.xsd" MetadataType="Schema" ID="ba5b5624-fd7e-4b1b-abf5-956e1420bccf" SourceId="1" SourceUrl="http://aurora/POSOnboarding/services/ApprovalService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ApprovalService4.xsd" MetadataType="Schema" ID="5d9734ae-6ca2-417f-9e0c-cf2bf91f8607" SourceId="1" SourceUrl="http://aurora/POSOnboarding/services/ApprovalService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ApprovalService.disco" MetadataType="Disco" ID="751d7010-bd62-488e-ba79-f9f6d7c56291" SourceId="1" SourceUrl="http://aurora/POSOnboarding/services/ApprovalService.svc?disco" />
+    <MetadataFile FileName="ApprovalService.wsdl" MetadataType="Wsdl" ID="cb29f247-c2df-4c78-9788-370da6edb949" SourceId="1" SourceUrl="http://aurora/POSOnboarding/services/ApprovalService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="ApprovalService1.wsdl" MetadataType="Wsdl" ID="b853ccc7-ad9a-4f20-8396-c2ac200aaa0b" SourceId="1" SourceUrl="http://aurora/POSOnboarding/services/ApprovalService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

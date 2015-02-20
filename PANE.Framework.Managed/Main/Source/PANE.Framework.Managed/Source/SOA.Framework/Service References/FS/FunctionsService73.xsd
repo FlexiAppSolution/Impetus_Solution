@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SOA.Framework.ApprovalConfigHelper" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SOA.Framework.ApprovalConfigHelper" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://evolution.appzone.local/Issuance/services/FunctionsService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" />
+  <xs:complexType name="ApprovalConfig">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" base="q1:DataObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ApprovingRoleID" type="xs:long" />
+          <xs:element minOccurs="0" name="Data" type="xs:long" />
+          <xs:element minOccurs="0" name="IsApprovable" type="xs:boolean" />
+          <xs:element minOccurs="0" name="MakeRoleName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MakerRole" type="xs:long" />
+          <xs:element minOccurs="0" name="SubUserRole" type="xs:long" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ApprovalConfig" nillable="true" type="tns:ApprovalConfig" />
+  <xs:complexType name="ArrayOfApprovalConfig">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ApprovalConfig" nillable="true" type="tns:ApprovalConfig" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApprovalConfig" nillable="true" type="tns:ArrayOfApprovalConfig" />
+</xs:schema>

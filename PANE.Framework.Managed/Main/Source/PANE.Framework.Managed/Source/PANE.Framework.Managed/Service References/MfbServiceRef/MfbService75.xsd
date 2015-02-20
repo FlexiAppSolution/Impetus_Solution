@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ManagedServices.Core.Data" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ManagedServices.Core.Data" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://uwie-pc/ManagedServices/services/MfbService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" />
+  <xs:import schemaLocation="http://uwie-pc/ManagedServices/services/MfbService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/ManagedServices.Core.Utility" />
+  <xs:import schemaLocation="http://uwie-pc/ManagedServices/services/MfbService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" />
+  <xs:complexType name="ArrayOfState">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="State" nillable="true" type="tns:State" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfState" nillable="true" type="tns:ArrayOfState" />
+  <xs:complexType name="State">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" base="q1:DataObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="State" nillable="true" type="tns:State" />
+  <xs:complexType name="ArrayOfCurrencyDenomination">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CurrencyDenomination" nillable="true" type="tns:CurrencyDenomination" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCurrencyDenomination" nillable="true" type="tns:ArrayOfCurrencyDenomination" />
+  <xs:complexType name="CurrencyDenomination">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" base="q2:DataObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Denomination" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CurrencyDenomination" nillable="true" type="tns:CurrencyDenomination" />
+  <xs:complexType name="LGA">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" base="q3:DataObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="State" nillable="true" type="tns:State" />
+          <xs:element minOccurs="0" name="StateID" nillable="true" type="xs:long" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="LGA" nillable="true" type="tns:LGA" />
+  <xs:complexType name="ArrayOfLGA">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LGA" nillable="true" type="tns:LGA" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLGA" nillable="true" type="tns:ArrayOfLGA" />
+  <xs:complexType name="ArrayOfMfb">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Mfb" nillable="true" type="tns:Mfb" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMfb" nillable="true" type="tns:ArrayOfMfb" />
+  <xs:complexType name="Mfb">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" base="q4:DataObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ContactPerson" nillable="true" type="tns:ContactPerson" />
+          <xs:element minOccurs="0" name="CurrentFinancialday" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Footer" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Identity" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="InstitutionCode" type="xs:int" />
+          <xs:element minOccurs="0" name="InstitutionCodeString" nillable="true" type="xs:string" />
+          <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ManagedServices.Core.Utility" minOccurs="0" name="InstitutionType" type="q5:InstitutionType" />
+          <xs:element minOccurs="0" name="LocalConnectionString" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LocalDatabaseName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LocalPassword" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LocalServerIP" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LocalUsername" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Logo" nillable="true" type="tns:MfbLogo" />
+          <xs:element minOccurs="0" name="Max_Cards" type="xs:long" />
+          <xs:element minOccurs="0" name="Max_Users" type="xs:long" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RemoteConnectionString" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RemoteDatabaseName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RemotePassword" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RemoteServerIP" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RemoteUsername" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SMSAcctPassword" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SMSAcctUsername" nillable="true" type="xs:string" />
+          <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/ManagedServices.Core.Utility" minOccurs="0" name="Status" type="q6:MFBStatus" />
+          <xs:element minOccurs="0" name="state" nillable="true" type="tns:State" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Mfb" nillable="true" type="tns:Mfb" />
+  <xs:complexType name="ContactPerson">
+    <xs:sequence>
+      <xs:element name="_x003C_Email_x003E_k__BackingField" nillable="true" type="xs:string" />
+      <xs:element name="_x003C_FirstName_x003E_k__BackingField" nillable="true" type="xs:string" />
+      <xs:element name="_x003C_LastName_x003E_k__BackingField" nillable="true" type="xs:string" />
+      <xs:element name="_x003C_Phone_x003E_k__BackingField" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ContactPerson" nillable="true" type="tns:ContactPerson" />
+  <xs:complexType name="MfbLogo">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" base="q7:DataObject">
+        <xs:sequence>
+          <xs:element name="_x003C_Image_x003E_k__BackingField" nillable="true" type="xs:base64Binary" />
+          <xs:element name="_x003C_MfbID_x003E_k__BackingField" type="xs:long" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MfbLogo" nillable="true" type="tns:MfbLogo" />
+  <xs:complexType name="MfbApps">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q8="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" base="q8:DataObject">
+        <xs:sequence>
+          <xs:element name="_x003C_ApplicationID_x003E_k__BackingField" type="xs:long" />
+          <xs:element name="_x003C_Configuration_x003E_k__BackingField" nillable="true" type="xs:string" />
+          <xs:element name="_x003C_MfbID_x003E_k__BackingField" type="xs:long" />
+          <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" name="_x003C_Status_x003E_k__BackingField" type="q9:Status" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MfbApps" nillable="true" type="tns:MfbApps" />
+</xs:schema>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Approval.DTO" />
+  <xs:import schemaLocation="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" />
+  <xs:import schemaLocation="http://aurora/FBNPortal/Services/ApprovalConfigService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Utility" />
+  <xs:element name="RetrieveApprovalConfiguration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="functionID" type="xs:long" />
+        <xs:element minOccurs="0" name="appName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveApprovalConfigurationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PANE.Framework.Approval.DTO" minOccurs="0" name="RetrieveApprovalConfigurationResult" nillable="true" type="q1:ApprovalConfiguration" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateEditApproval">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dataType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="entityName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="objectID" type="xs:long" />
+        <xs:element minOccurs="0" name="functionID" type="xs:long" />
+        <xs:element minOccurs="0" name="dataBefore" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="dataAfter" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="appName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="appEndPoint" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="currentUserID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateEditApprovalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="CreateEditApprovalResult" nillable="true" type="q2:Approval" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateAddApproval">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dataType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="entityName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="objectID" type="xs:long" />
+        <xs:element minOccurs="0" name="functionID" type="xs:long" />
+        <xs:element minOccurs="0" name="newData" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="appName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="appEndPoint" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="currentUserID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateAddApprovalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="CreateAddApprovalResult" nillable="true" type="q3:Approval" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateDeleteApproval">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dataType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="entityName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="objectID" type="xs:long" />
+        <xs:element minOccurs="0" name="functionID" type="xs:long" />
+        <xs:element minOccurs="0" name="dataToDelete" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="appName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="appEndPoint" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="currentUserID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateDeleteApprovalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AppZonePortal.Core.Data" minOccurs="0" name="CreateDeleteApprovalResult" nillable="true" type="q4:Approval" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveByMakerRoleName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mfbCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="makerRoleName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="functionID" type="xs:long" />
+        <xs:element minOccurs="0" name="appName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetrieveByMakerRoleNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RetrieveByMakerRoleNameResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetApprovalObject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dataBefore" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="dataAfter" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetApprovalObjectResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PANE.Framework.Utility" minOccurs="0" name="GetApprovalObjectResult" nillable="true" type="q5:ArrayOfTrailItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

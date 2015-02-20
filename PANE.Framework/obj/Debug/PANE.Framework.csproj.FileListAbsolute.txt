@@ -1,0 +1,97 @@
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\PANE.Framework.dll.config
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\PANE.Framework.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\PANE.Framework.pdb
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\PANE.ERRORLOG.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\Antlr3.Runtime.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\Iesi.Collections.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\log4net.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\Castle.DynamicProxy2.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\Castle.Core.xml
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\FluentNHibernate.pdb
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\FluentNHibernate.xml
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\NHibernate.xml
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\NHibernate.ByteCode.Castle.xml
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\Iesi.Collections.xml
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\log4net.xml
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\Castle.DynamicProxy2.xml
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\obj\Debug\ResolveAssemblyReference.cache
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\obj\Debug\PANE.Framework.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\obj\Debug\PANE.Framework.pdb
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\Castle.Core.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\FluentNHibernate.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\NHibernate.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\PANE.Framework.Managed.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\ThalesCore.dll
+C:\Appzone\AlemDLL\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\Trx.dll
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\PANE.Framework.dll.config
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\PANE.Framework.dll
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\PANE.Framework.pdb
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\PANE.Framework.Managed.dll
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\Trx.dll
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\bin\Debug\log4net.dll
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\obj\Debug\ResolveAssemblyReference.cache
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\obj\Debug\PANE.Framework.dll
+C:\Appzone\TFS\ViaCard Issuance 2\FBN\Source\ViaCard Issuance\Source\PANE.Framework\obj\Debug\PANE.Framework.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework\bin\Debug\PANE.Framework.dll.config
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework\bin\Debug\PANE.Framework.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework\bin\Debug\PANE.Framework.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework\obj\Debug\PANE.Framework.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework\obj\Debug\PANE.Framework.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\PANE.Framework\obj\Debug\PANE.Framework.csprojResolveAssemblyReference.cache
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework\bin\Debug\PANE.Framework.dll.config
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework\bin\Debug\PANE.Framework.dll
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework\bin\Debug\PANE.Framework.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework\obj\Debug\PANE.Framework.dll
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework\obj\Debug\PANE.Framework.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\PANE.Framework\obj\Debug\PANE.Framework.csprojResolveAssemblyReference.cache
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.dll.config
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.dll
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.pdb
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\obj\Debug\PANE.Framework.csprojResolveAssemblyReference.cache
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\obj\Debug\PANE.Framework.dll
+C:\Users\OOLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\obj\Debug\PANE.Framework.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.dll.config
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\FluentNHibernate.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\NHibernate.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\ThalesCore.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\Trx.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\Iesi.Collections.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\log4net.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\PANE.ERRORLOG.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\obj\Debug\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\Migrator\PANE.Framework\obj\Debug\PANE.Framework.pdb
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.dll.config
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.pdb
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\FluentNHibernate.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\NHibernate.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\ThalesCore.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\Trx.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\Iesi.Collections.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\log4net.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\PANE.ERRORLOG.pdb
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\bin\Debug\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\obj\Debug\PANE.Framework.csprojResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\obj\Debug\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\projects\Migrator\PANE.Framework\obj\Debug\PANE.Framework.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework\bin\Debug\PANE.Framework.dll.config
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework\bin\Debug\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework\bin\Debug\PANE.Framework.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework\bin\Debug\NHibernate.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework\bin\Debug\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework\bin\Debug\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework\bin\Debug\PANE.ERRORLOG.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework\bin\Debug\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework\obj\Debug\PANE.Framework.csprojResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework\obj\Debug\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\PANE.Framework\obj\Debug\PANE.Framework.pdb

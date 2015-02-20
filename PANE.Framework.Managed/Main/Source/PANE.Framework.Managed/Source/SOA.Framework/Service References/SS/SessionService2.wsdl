@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="/Imports">
+      <xsd:import schemaLocation="http://outlander/ManagedServices/Services/SessionService.svc?xsd=xsd0" />
+      <xsd:import schemaLocation="http://outlander/ManagedServices/Services/SessionService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SessionService_isUserLoggedin_InputMessage">
+    <wsdl:part name="parameters" element="isUserLoggedin" />
+  </wsdl:message>
+  <wsdl:message name="SessionService_isUserLoggedin_OutputMessage">
+    <wsdl:part name="parameters" element="isUserLoggedinResponse" />
+  </wsdl:message>
+  <wsdl:message name="SessionService_IsADifferentInstitution_InputMessage">
+    <wsdl:part name="parameters" element="IsADifferentInstitution" />
+  </wsdl:message>
+  <wsdl:message name="SessionService_IsADifferentInstitution_OutputMessage">
+    <wsdl:part name="parameters" element="IsADifferentInstitutionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SessionService">
+    <wsdl:operation name="isUserLoggedin">
+      <wsdl:input wsaw:Action="urn:SessionService/isUserLoggedin" message="SessionService_isUserLoggedin_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SessionService/isUserLoggedinResponse" message="SessionService_isUserLoggedin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsADifferentInstitution">
+      <wsdl:input wsaw:Action="urn:SessionService/IsADifferentInstitution" message="SessionService_IsADifferentInstitution_InputMessage" />
+      <wsdl:output wsaw:Action="urn:SessionService/IsADifferentInstitutionResponse" message="SessionService_IsADifferentInstitution_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

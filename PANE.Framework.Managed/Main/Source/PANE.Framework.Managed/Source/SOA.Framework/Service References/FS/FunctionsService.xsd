@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:simpleType name="UserCategory">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ServiceProvider" />
+      <xs:enumeration value="Mfb" />
+      <xs:enumeration value="CorrespondentBank" />
+      <xs:enumeration value="Customer" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="UserCategory" nillable="true" type="tns:UserCategory" />
+  <xs:simpleType name="UserRoleScope">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Branch">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Region">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Global">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="UserRoleScope" nillable="true" type="tns:UserRoleScope" />
+</xs:schema>

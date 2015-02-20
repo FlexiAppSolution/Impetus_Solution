@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateLicenseFromToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="licenseType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="duration" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateLicenseFromTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GenerateLicenseFromTokenResult" type="tns:LicenseData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="LicenseData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="errorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AdminPassword" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="rightCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="wrongserviceCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="rightserviceCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LicenseField" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GenerateRightCodeFromErrorCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="errorCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateRightCodeFromErrorCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GenerateRightCodeFromErrorCodeResult" type="tns:LicenseData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateRightServiceCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="serviceCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateRightServiceCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GenerateRightServiceCodeResult" type="tns:LicenseData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerateLicenseFromTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:GenerateLicenseFromToken" />
+  </wsdl:message>
+  <wsdl:message name="GenerateLicenseFromTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:GenerateLicenseFromTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerateRightCodeFromErrorCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GenerateRightCodeFromErrorCode" />
+  </wsdl:message>
+  <wsdl:message name="GenerateRightCodeFromErrorCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GenerateRightCodeFromErrorCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerateRightServiceCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GenerateRightServiceCode" />
+  </wsdl:message>
+  <wsdl:message name="GenerateRightServiceCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GenerateRightServiceCodeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PrintUtilityServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateLicenseFromToken">
+      <wsdl:input message="tns:GenerateLicenseFromTokenSoapIn" />
+      <wsdl:output message="tns:GenerateLicenseFromTokenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateRightCodeFromErrorCode">
+      <wsdl:input message="tns:GenerateRightCodeFromErrorCodeSoapIn" />
+      <wsdl:output message="tns:GenerateRightCodeFromErrorCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateRightServiceCode">
+      <wsdl:input message="tns:GenerateRightServiceCodeSoapIn" />
+      <wsdl:output message="tns:GenerateRightServiceCodeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PrintUtilityServiceSoap" type="tns:PrintUtilityServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateLicenseFromToken">
+      <soap:operation soapAction="http://tempuri.org/GenerateLicenseFromToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateRightCodeFromErrorCode">
+      <soap:operation soapAction="http://tempuri.org/GenerateRightCodeFromErrorCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateRightServiceCode">
+      <soap:operation soapAction="http://tempuri.org/GenerateRightServiceCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PrintUtilityServiceSoap12" type="tns:PrintUtilityServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateLicenseFromToken">
+      <soap12:operation soapAction="http://tempuri.org/GenerateLicenseFromToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateRightCodeFromErrorCode">
+      <soap12:operation soapAction="http://tempuri.org/GenerateRightCodeFromErrorCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateRightServiceCode">
+      <soap12:operation soapAction="http://tempuri.org/GenerateRightServiceCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PrintUtilityService">
+    <wsdl:port name="PrintUtilityServiceSoap" binding="tns:PrintUtilityServiceSoap">
+      <soap:address location="http://localhost/impetussolution/services/printutilityservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PrintUtilityServiceSoap12" binding="tns:PrintUtilityServiceSoap12">
+      <soap12:address location="http://localhost/impetussolution/services/printutilityservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

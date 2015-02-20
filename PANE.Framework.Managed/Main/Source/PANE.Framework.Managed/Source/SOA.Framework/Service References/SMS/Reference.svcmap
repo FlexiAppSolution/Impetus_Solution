@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="82627962-dc7b-41c2-86f3-5cf40de82b95" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="SOA.Framework.Core" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BankOne/Services/SiteMapService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SiteMapService.wsdl" MetadataType="Wsdl" ID="6318ed74-3944-4459-b611-c894f44505a4" SourceId="1" SourceUrl="http://outlander/BankOne/Services/SiteMapService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="SiteMapService.xsd" MetadataType="Schema" ID="0b272e7d-4e8d-4982-a686-b0ebbcf24c9b" SourceId="1" SourceUrl="http://outlander/BankOne/Services/SiteMapService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SiteMapService1.xsd" MetadataType="Schema" ID="06b759ea-40e5-4fe7-97da-8beb1741ab10" SourceId="1" SourceUrl="http://outlander/BankOne/Services/SiteMapService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SiteMapService2.xsd" MetadataType="Schema" ID="962fb61c-8296-4cb3-bfaa-e933a5cff37a" SourceId="1" SourceUrl="http://outlander/BankOne/Services/SiteMapService.svc?xsd=xsd3" />
+    <MetadataFile FileName="SiteMapService1.wsdl" MetadataType="Wsdl" ID="5167aa14-5678-4df6-bdb6-49d18ba6080a" SourceId="1" SourceUrl="http://outlander/BankOne/Services/SiteMapService.svc?wsdl" />
+    <MetadataFile FileName="SiteMapService3.xsd" MetadataType="Schema" ID="61fd2880-fa18-4394-9b3e-3c491f67826b" SourceId="1" SourceUrl="http://outlander/BankOne/Services/SiteMapService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SiteMapService.disco" MetadataType="Disco" ID="15df9200-f97f-48c8-b39e-4155353b574d" SourceId="1" SourceUrl="http://outlander/BankOne/Services/SiteMapService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="/Imports">
+      <xsd:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd0" />
+      <xsd:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Managed.Functions.DTO" />
+      <xsd:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/SOA.Framework.FunctionHelper" />
+      <xsd:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.DTO" />
+      <xsd:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/SOA.Framework.ApprovalConfigHelper" />
+      <xsd:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" />
+      <xsd:import schemaLocation="http://localhost/Card_Issuance2/services/FunctionsService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Approval.DTO" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="FunctionService_GetFunctionsForApprovalConfiguration_InputMessage">
+    <wsdl:part name="parameters" element="GetFunctionsForApprovalConfiguration" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_GetFunctionsForApprovalConfiguration_OutputMessage">
+    <wsdl:part name="parameters" element="GetFunctionsForApprovalConfigurationResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_RetrieveAll_InputMessage">
+    <wsdl:part name="parameters" element="RetrieveAll" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_RetrieveAll_OutputMessage">
+    <wsdl:part name="parameters" element="RetrieveAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_GetFunctionsForApprovalConfiguration_x0020_Per_x0020_Institution_InputMessage">
+    <wsdl:part name="parameters" element="GetFunctionsForApprovalConfiguration_x0020_Per_x0020_Institution" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_GetFunctionsForApprovalConfiguration_x0020_Per_x0020_Institution_OutputMessage">
+    <wsdl:part name="parameters" element="GetFunctionsForApprovalConfiguration_x0020_Per_x0020_InstitutionResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_RetrieveAll_x0020_Per_x0020_Institution_InputMessage">
+    <wsdl:part name="parameters" element="RetrieveAll_x0020_Per_x0020_Institution" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_RetrieveAll_x0020_Per_x0020_Institution_OutputMessage">
+    <wsdl:part name="parameters" element="RetrieveAll_x0020_Per_x0020_InstitutionResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_SaveThUserRoleFunctionItems_InputMessage">
+    <wsdl:part name="parameters" element="SaveThUserRoleFunctionItems" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_SaveThUserRoleFunctionItems_OutputMessage">
+    <wsdl:part name="parameters" element="SaveThUserRoleFunctionItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_UpdateThUserRoleFunctionItems_InputMessage">
+    <wsdl:part name="parameters" element="UpdateThUserRoleFunctionItems" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_UpdateThUserRoleFunctionItems_OutputMessage">
+    <wsdl:part name="parameters" element="UpdateThUserRoleFunctionItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_ConvertFunction_InputMessage">
+    <wsdl:part name="parameters" element="ConvertFunction" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_ConvertFunction_OutputMessage">
+    <wsdl:part name="parameters" element="ConvertFunctionResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_GetFunctionByID_InputMessage">
+    <wsdl:part name="parameters" element="GetFunctionByID" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_GetFunctionByID_OutputMessage">
+    <wsdl:part name="parameters" element="GetFunctionByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_GetFunctionByRoleName_InputMessage">
+    <wsdl:part name="parameters" element="GetFunctionByRoleName" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_GetFunctionByRoleName_OutputMessage">
+    <wsdl:part name="parameters" element="GetFunctionByRoleNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_GetFunctionsForUserRole_InputMessage">
+    <wsdl:part name="parameters" element="GetFunctionsForUserRole" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_GetFunctionsForUserRole_OutputMessage">
+    <wsdl:part name="parameters" element="GetFunctionsForUserRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_GetDependencyFunctionsForUserRole_InputMessage">
+    <wsdl:part name="parameters" element="GetDependencyFunctionsForUserRole" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_GetDependencyFunctionsForUserRole_OutputMessage">
+    <wsdl:part name="parameters" element="GetDependencyFunctionsForUserRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_RetrieveFunctionItemsForUserRoleID_InputMessage">
+    <wsdl:part name="parameters" element="RetrieveFunctionItemsForUserRoleID" />
+  </wsdl:message>
+  <wsdl:message name="FunctionService_RetrieveFunctionItemsForUserRoleID_OutputMessage">
+    <wsdl:part name="parameters" element="RetrieveFunctionItemsForUserRoleIDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FunctionService">
+    <wsdl:operation name="GetFunctionsForApprovalConfiguration">
+      <wsdl:input wsaw:Action="urn:FunctionService/GetFunctionsForApprovalConfiguration" message="FunctionService_GetFunctionsForApprovalConfiguration_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/GetFunctionsForApprovalConfigurationResponse" message="FunctionService_GetFunctionsForApprovalConfiguration_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveAll">
+      <wsdl:input wsaw:Action="urn:FunctionService/RetrieveAll" message="FunctionService_RetrieveAll_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/RetrieveAllResponse" message="FunctionService_RetrieveAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFunctionsForApprovalConfiguration_x0020_Per_x0020_Institution">
+      <wsdl:input wsaw:Action="urn:FunctionService/GetFunctionsForApprovalConfiguration Per Institution" message="FunctionService_GetFunctionsForApprovalConfiguration_x0020_Per_x0020_Institution_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/GetFunctionsForApprovalConfiguration Per InstitutionResponse" message="FunctionService_GetFunctionsForApprovalConfiguration_x0020_Per_x0020_Institution_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveAll_x0020_Per_x0020_Institution">
+      <wsdl:input wsaw:Action="urn:FunctionService/RetrieveAll Per Institution" message="FunctionService_RetrieveAll_x0020_Per_x0020_Institution_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/RetrieveAll Per InstitutionResponse" message="FunctionService_RetrieveAll_x0020_Per_x0020_Institution_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveThUserRoleFunctionItems">
+      <wsdl:input wsaw:Action="urn:FunctionService/SaveThUserRoleFunctionItems" message="FunctionService_SaveThUserRoleFunctionItems_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/SaveThUserRoleFunctionItemsResponse" message="FunctionService_SaveThUserRoleFunctionItems_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateThUserRoleFunctionItems">
+      <wsdl:input wsaw:Action="urn:FunctionService/UpdateThUserRoleFunctionItems" message="FunctionService_UpdateThUserRoleFunctionItems_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/UpdateThUserRoleFunctionItemsResponse" message="FunctionService_UpdateThUserRoleFunctionItems_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertFunction">
+      <wsdl:input wsaw:Action="urn:FunctionService/ConvertFunction" message="FunctionService_ConvertFunction_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/ConvertFunctionResponse" message="FunctionService_ConvertFunction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFunctionByID">
+      <wsdl:input wsaw:Action="urn:FunctionService/GetFunctionByID" message="FunctionService_GetFunctionByID_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/GetFunctionByIDResponse" message="FunctionService_GetFunctionByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFunctionByRoleName">
+      <wsdl:input wsaw:Action="urn:FunctionService/GetFunctionByRoleName" message="FunctionService_GetFunctionByRoleName_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/GetFunctionByRoleNameResponse" message="FunctionService_GetFunctionByRoleName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFunctionsForUserRole">
+      <wsdl:input wsaw:Action="urn:FunctionService/GetFunctionsForUserRole" message="FunctionService_GetFunctionsForUserRole_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/GetFunctionsForUserRoleResponse" message="FunctionService_GetFunctionsForUserRole_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDependencyFunctionsForUserRole">
+      <wsdl:input wsaw:Action="urn:FunctionService/GetDependencyFunctionsForUserRole" message="FunctionService_GetDependencyFunctionsForUserRole_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/GetDependencyFunctionsForUserRoleResponse" message="FunctionService_GetDependencyFunctionsForUserRole_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveFunctionItemsForUserRoleID">
+      <wsdl:input wsaw:Action="urn:FunctionService/RetrieveFunctionItemsForUserRoleID" message="FunctionService_RetrieveFunctionItemsForUserRoleID_InputMessage" />
+      <wsdl:output wsaw:Action="urn:FunctionService/RetrieveFunctionItemsForUserRoleIDResponse" message="FunctionService_RetrieveFunctionItemsForUserRoleID_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

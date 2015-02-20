@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" schema="dbo">
+  <class name="PANE.Framework.Managed.Functions.DTO.UserRole, PANE.Framework.Managed" table="[UserRoles]" lazy="false">
+    <id name="ID" type="Int64" column="ID">
+      <generator class="native" />
+    </id>
+    <property name="Name" column="Name" type="String" />
+    <property name="Code" column="Code" type="String" />
+    <property name="UserCategory" column="UserCategory" type="PANE.Framework.Managed.Functions.DTO.UserCategory,PANE.Framework.Managed" />
+    <property name="Description" column="Description" type="String" />
+    <property name="Scope" column="Scope" type="PANE.Framework.Managed.Functions.DTO.UserRoleScope, PANE.Framework.Managed" />
+    <!--<property name="ScopeID" column="Scope" type="Int32" />-->
+    <property name="Status" column="Status" type="PANE.Framework.Managed.Functions.DTO.Status, PANE.Framework.Managed" />
+    <!--   <bag inverse="true" name="TheUserRoleFunctions" generic="true" lazy="false">
+      <key column="TheUserRoleID"></key>
+      <one-to-many class="PANE.Framework.Managed.Functions.DTO.UserRoleFunction, PANE.Framework.Managed" />
+    </bag>-->
+  </class>
+</hibernate-mapping>

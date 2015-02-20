@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e7808ccb-7349-4b37-9faa-2e5dee824288" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/ManagedServices/Services/RecentActivityService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RecentActivityService1.disco" MetadataType="Disco" ID="00b1ccf6-bf8e-4f50-83db-65957d8cb0bc" SourceId="1" SourceUrl="http://tarantula/ManagedServices/Services/RecentActivityService.svc?disco" />
+    <MetadataFile FileName="RecentActivityService1.wsdl" MetadataType="Wsdl" ID="3df0331e-e3b2-4ffc-a751-8e18d632bf1c" SourceId="1" SourceUrl="http://tarantula/ManagedServices/Services/RecentActivityService.svc?wsdl" />
+    <MetadataFile FileName="RecentActivityService3.xsd" MetadataType="Schema" ID="bb34b833-1885-48b0-9a89-584f98048377" SourceId="1" SourceUrl="http://tarantula/ManagedServices/Services/RecentActivityService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RecentActivityService31.xsd" MetadataType="Schema" ID="21e3200b-feca-44c7-8da0-0675d81a37a6" SourceId="1" SourceUrl="http://tarantula/ManagedServices/Services/RecentActivityService.svc?xsd=xsd2" />
+    <MetadataFile FileName="RecentActivityService32.xsd" MetadataType="Schema" ID="1e32403a-fb98-48ec-a4c1-953f907dd2c9" SourceId="1" SourceUrl="http://tarantula/ManagedServices/Services/RecentActivityService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

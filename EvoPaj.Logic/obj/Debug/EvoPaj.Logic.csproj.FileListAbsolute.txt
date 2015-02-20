@@ -1,0 +1,116 @@
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Base.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Data.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.ERRORLOG.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Ninject.Core.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\FluentNHibernate.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\NHibernate.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.Managed.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\ThalesCore.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Trx.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Iesi.Collections.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Antlr3.Runtime.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\log4net.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Base.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Data.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.Managed.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.dll
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.pdb
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.csprojResolveAssemblyReference.cache
+C:\Appzone\Project EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.dll.config
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.dll.config
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Base.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Data.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\log4net.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.ERRORLOG.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Ninject.Core.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\FluentNHibernate.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\NHibernate.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.Managed.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Trx.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\ThalesCore.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Iesi.Collections.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Antlr3.Runtime.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Base.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Data.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.Managed.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.csprojResolveAssemblyReference.cache
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.dll
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.pdb
+C:\Appzone\Pajuno\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.pdb
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.csprojResolveAssemblyReference.cache
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.dll.config
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.pdb
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Base.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Data.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\log4net.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.ERRORLOG.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.Managed.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Ninject.Core.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\FluentNHibernate.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\NHibernate.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Trx.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\ThalesCore.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Iesi.Collections.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\Antlr3.Runtime.dll
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Base.pdb
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\EvoPaj.Data.pdb
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.ERRORLOG.pdb
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.Managed.pdb
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\bin\Debug\PANE.Framework.pdb
+C:\Appzone\EvoPaj\Project\EvoPaj\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.dll.config
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\EvoPaj.Base.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\EvoPaj.Data.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\Ninject.Core.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\FluentNHibernate.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\NHibernate.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\ThalesCore.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\Iesi.Collections.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\Antlr3.Runtime.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\EvoPaj.Base.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\EvoPaj.Data.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\PANE.Framework.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\PANE.ERRORLOG.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.csprojResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.dll
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.pdb
+C:\Users\OLATUNJI\Documents\Visual Studio 2010\Projects\ImpetusSolution\EvoPaj.Logic\bin\Debug\Trx.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.csprojResolveAssemblyReference.cache
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\obj\Debug\EvoPaj.Logic.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.dll.config
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\EvoPaj.Logic.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\EvoPaj.Base.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\EvoPaj.Data.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\PANE.ERRORLOG.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\PANE.Framework.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\PANE.Framework.Managed.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\Ninject.Core.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\FluentNHibernate.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\NHibernate.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\Trx.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\ThalesCore.dll
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\EvoPaj.Base.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\EvoPaj.Data.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\PANE.ERRORLOG.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\PANE.Framework.Managed.pdb
+C:\Users\OLATUNJI\Documents\projects\ImpetusSolutions\EvoPaj.Logic\bin\Debug\PANE.Framework.pdb

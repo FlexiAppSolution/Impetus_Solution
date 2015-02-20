@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SOA.Framework.MembershipHelper" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SOA.Framework.MembershipHelper" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://evolution.appzone.local/ManagedServices/Services/MembershipService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" />
+  <xs:complexType name="MembershipUserItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchID" type="xs:long" />
+      <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreationDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DoesntNeedAudit" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FailedPasswordAttemptCount" type="xs:int" />
+      <xs:element minOccurs="0" name="ID" type="xs:long" />
+      <xs:element minOccurs="0" name="IsApproved" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsLockedOut" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsOnline" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsSuperUser" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Key" nillable="true" type="xs:anyType" />
+      <xs:element minOccurs="0" name="LastLoginDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="MFBCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MembershipBranchItem" nillable="true" type="tns:MembershipBranchItem" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" minOccurs="0" name="Role" nillable="true" type="q1:UserRole" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" minOccurs="0" name="Status" type="q2:UserStatus" />
+      <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MembershipUserItem" nillable="true" type="tns:MembershipUserItem" />
+  <xs:complexType name="MembershipBranchItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Code" type="xs:int" />
+      <xs:element minOccurs="0" name="GefuFilePath" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:long" />
+      <xs:element minOccurs="0" name="MFBCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegionID" type="xs:long" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PANE.Framework.Functions.DTO" minOccurs="0" name="Status" type="q3:Status" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MembershipBranchItem" nillable="true" type="tns:MembershipBranchItem" />
+</xs:schema>

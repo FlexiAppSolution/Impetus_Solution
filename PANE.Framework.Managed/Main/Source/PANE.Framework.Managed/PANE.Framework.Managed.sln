@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PANE.Framework.Managed", "Source\PANE.Framework.Managed\PANE.Framework.Managed.csproj", "{18BB0A68-8B77-432E-9256-3B439748F5B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOA.Framework", "Source\SOA.Framework\SOA.Framework.csproj", "{2499BEC2-A9BA-468B-AA34-D31F4CD8B98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOA.Framework.Core", "Source\SOA.Framework.Core\SOA.Framework.Core.csproj", "{657E8190-E0A4-4158-84AC-A25B05C13B56}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://dev-server:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = Source\\PANE.Framework.Managed\\PANE.Framework.Managed.csproj
+		SccProjectName0 = Source/PANE.Framework.Managed
+		SccLocalPath0 = Source\\PANE.Framework.Managed
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = Source\\SOA.Framework\\SOA.Framework.csproj
+		SccProjectName2 = Source/SOA.Framework
+		SccLocalPath2 = Source\\SOA.Framework
+		SccProjectUniqueName3 = Source\\SOA.Framework.Core\\SOA.Framework.Core.csproj
+		SccProjectName3 = Source/SOA.Framework.Core
+		SccLocalPath3 = Source\\SOA.Framework.Core
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18BB0A68-8B77-432E-9256-3B439748F5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BB0A68-8B77-432E-9256-3B439748F5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BB0A68-8B77-432E-9256-3B439748F5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BB0A68-8B77-432E-9256-3B439748F5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2499BEC2-A9BA-468B-AA34-D31F4CD8B98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2499BEC2-A9BA-468B-AA34-D31F4CD8B98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2499BEC2-A9BA-468B-AA34-D31F4CD8B98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2499BEC2-A9BA-468B-AA34-D31F4CD8B98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657E8190-E0A4-4158-84AC-A25B05C13B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657E8190-E0A4-4158-84AC-A25B05C13B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657E8190-E0A4-4158-84AC-A25B05C13B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657E8190-E0A4-4158-84AC-A25B05C13B56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

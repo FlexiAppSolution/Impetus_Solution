@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="/Imports">
+      <xsd:import schemaLocation="http://evolution.appzone.local/BankOne/services/ApprovalService.svc?xsd=xsd0" />
+      <xsd:import schemaLocation="http://evolution.appzone.local/BankOne/services/ApprovalService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://evolution.appzone.local/BankOne/services/ApprovalService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PANE.Framework.Utility" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ApprovalService_GetApprovalObject_InputMessage">
+    <wsdl:part name="parameters" element="GetApprovalObject" />
+  </wsdl:message>
+  <wsdl:message name="ApprovalService_GetApprovalObject_OutputMessage">
+    <wsdl:part name="parameters" element="GetApprovalObjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApprovalService_SaveApprovedObject_InputMessage">
+    <wsdl:part name="parameters" element="SaveApprovedObject" />
+  </wsdl:message>
+  <wsdl:message name="ApprovalService_SaveApprovedObject_OutputMessage">
+    <wsdl:part name="parameters" element="SaveApprovedObjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApprovalService_SaveApprovedObject_ApproverWCFExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/PANE.Framework.Utility" name="detail" element="q1:ApproverWCFException" />
+  </wsdl:message>
+  <wsdl:message name="ApprovalService_UpdateApprovedObject_InputMessage">
+    <wsdl:part name="parameters" element="UpdateApprovedObject" />
+  </wsdl:message>
+  <wsdl:message name="ApprovalService_UpdateApprovedObject_OutputMessage">
+    <wsdl:part name="parameters" element="UpdateApprovedObjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApprovalService_UpdateApprovedObject_ApproverWCFExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/PANE.Framework.Utility" name="detail" element="q2:ApproverWCFException" />
+  </wsdl:message>
+  <wsdl:message name="ApprovalService_DeleteApprovedObject_InputMessage">
+    <wsdl:part name="parameters" element="DeleteApprovedObject" />
+  </wsdl:message>
+  <wsdl:message name="ApprovalService_DeleteApprovedObject_OutputMessage">
+    <wsdl:part name="parameters" element="DeleteApprovedObjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApprovalService_DeleteApprovedObject_ApproverWCFExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/PANE.Framework.Utility" name="detail" element="q3:ApproverWCFException" />
+  </wsdl:message>
+  <wsdl:portType name="ApprovalService">
+    <wsdl:operation name="GetApprovalObject">
+      <wsdl:input wsaw:Action="urn:ApprovalService/GetApprovalObject" message="ApprovalService_GetApprovalObject_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ApprovalService/GetApprovalObjectResponse" message="ApprovalService_GetApprovalObject_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveApprovedObject">
+      <wsdl:input wsaw:Action="urn:ApprovalService/SaveApprovedObject" message="ApprovalService_SaveApprovedObject_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ApprovalService/SaveApprovedObjectResponse" message="ApprovalService_SaveApprovedObject_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:ApprovalService/SaveApprovedObjectApproverWCFExceptionFault" name="ApproverWCFExceptionFault" message="ApprovalService_SaveApprovedObject_ApproverWCFExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovedObject">
+      <wsdl:input wsaw:Action="urn:ApprovalService/UpdateApprovedObject" message="ApprovalService_UpdateApprovedObject_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ApprovalService/UpdateApprovedObjectResponse" message="ApprovalService_UpdateApprovedObject_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:ApprovalService/UpdateApprovedObjectApproverWCFExceptionFault" name="ApproverWCFExceptionFault" message="ApprovalService_UpdateApprovedObject_ApproverWCFExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteApprovedObject">
+      <wsdl:input wsaw:Action="urn:ApprovalService/DeleteApprovedObject" message="ApprovalService_DeleteApprovedObject_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ApprovalService/DeleteApprovedObjectResponse" message="ApprovalService_DeleteApprovedObject_OutputMessage" />
+      <wsdl:fault wsaw:Action="urn:ApprovalService/DeleteApprovedObjectApproverWCFExceptionFault" name="ApproverWCFExceptionFault" message="ApprovalService_DeleteApprovedObject_ApproverWCFExceptionFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
